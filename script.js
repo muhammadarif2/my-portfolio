@@ -37,3 +37,6 @@ $(document).ready(function(){
 
 });
 
+document.getElementById("form2").addEventListener("click", function(event){
+  event.preventDefault()
+});
